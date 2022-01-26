@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!--[if lt IE 7]>
+      <p class="browsehappy">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="#">upgrade your browser</a> to improve your experience.
+      </p>
+    <![endif]-->
+    <div class="calculator">
+      <h1>Javascript Calculator</h1>
+      <h3>Super simple</h3>
+
+      <div>
+        <input id="input-1" placeholder="number" />
+        <input id="input-2" placeholder="number" />
+      </div>
+      <br />
+
+      <div>
+        <button onclick="sum()" id="one">+</button>
+        <button onclick="subtract()" id="two">-</button>
+        <button onclick="multiply()" id="three">X</button>
+        <button onclick="divide()" id="four">/</button>
+        <button onclick="clearInputs()" id="five">Clear</button>
+      </div>
+      <br />
+
+      <div>
+        <input id="result" placeholder="result" readonly />
+      </div>
+    </div>
+
+    <script src="javascript/index.js" async defer></script>
+  </body>
+</html>

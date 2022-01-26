@@ -1,0 +1,16 @@
+body {
+  background-color: #22dd6f;
+}
+
+h3 {
+  color: dimgray;
+}
+
+.calculator {
+  text-align: center;
+}
+
+button,
+input {
+  font-size: 29px;
+}
